@@ -1,0 +1,49 @@
+.counter__num {
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.counter__num_text {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px
+}
+
+.counter__num_item {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 30px;
+
+}
+
+.counter__hour,
+.counter__min,
+.counter__sec {
+    font: 35px/38px 'GothamPro-Bold', sans-serif;
+    color: #adc0d2;
+    vertical-align: middle;
+    display: inline-block;
+    width: 45px;
+    margin: 0 13px;
+    position: relative;
+}
+
+.counter__hour:after,
+.counter__min:after{
+    content: ":";
+    font: 35px/38px 'GothamPro-Bold', sans-serif;
+    color: #adc0d2;
+    position: absolute;
+    top: 0px;
+    right: -19px;
+}
+
+
+.header__counter {
+    position: relative
+}
+
+.header__counter.text-bottom {
+    display: none;
+}
